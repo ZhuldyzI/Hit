@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MainMenu : MonoBehaviour
+{
+    public void HandlePlayButtonOnClickEvent()
+    {
+        MenuManager.GoToMenu(MenuName.Play);
+    }
+
+    public void HandleQuitButtonOnClickEvent()
+    {
+        Application.Quit();
+    }
+
+}
